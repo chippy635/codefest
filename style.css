@@ -4,5 +4,21 @@
 }
 
 body {
-	background: black;
+	background: yellow;
 }
+
+header {
+	background: url(http://www.wallcoo.net/animal/chipmunks_wallpapers/images/backyard_chipmunk_picture_1188262645_d1266b82c2_o.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.title {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+	font-size: 2em;
+}	
